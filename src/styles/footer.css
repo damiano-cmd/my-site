@@ -1,0 +1,12 @@
+.footer {
+    background-color: rgb(19, 19, 19);
+    text-align: center;
+    bottom: 0px;
+}
+
+.footer p, h3 {
+    margin: 0;
+    padding: 30px;
+    color: rgb(250, 250, 250);
+    font-family: fantasy;
+}

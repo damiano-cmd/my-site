@@ -1,0 +1,30 @@
+.portfolio {
+    background-color: rgb(48, 48, 48);
+    min-height: 100vh;
+    color: rgb(221, 221, 221);
+    text-align: center;
+}
+.portfolio div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio article {
+    background-color: rgb(29, 29, 29);
+    width: 300px;
+    border-radius: 1% 1% 5% 5%;
+    margin: 30px;
+}
+.portfolio article img {
+    width: 298px;
+}
+.portfolio h2 {
+    margin: 0;
+    padding: 80px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio h3, p {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
