@@ -1,0 +1,23 @@
+.serv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(241, 241, 241);
+}
+.serv article {
+    width: 320px;
+    text-align: center;
+    margin: 60px;
+}
+.serv div {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: rgb(37, 37, 37);
+}
+.serv div img {
+    margin: 5px;
+}
+.serv p {
+    margin: 0;
+}
