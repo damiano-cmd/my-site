@@ -5,6 +5,7 @@ import websimp from '../images/basicWebApp.png';
 import reactnext from '../images/react-next.png';
 import nodeexpress from '../images/node-express.png';
 import db from '../images/mongodb.png';
+import bel from '../images/BEL.png';
 
 
 export default function Services () {
@@ -15,14 +16,14 @@ export default function Services () {
                 <img src={pylogo} />
             </div>
             <h2>Python</h2>
-            <p>I know basics of python w/ BS4, sockets, json, requests and PyQT5. </p>
+            <p>I know basics of Python and additional libraries. I can make a webscraper, desktop or console app. Contact me for more details. </p>
         </article>
         <article>
             <div>
                 <img src={websimp} />
             </div>
             <h2>Static Web App</h2>
-            <p>With HTML, CSS w/Sass, JavaScript i can make a simple or complex static web app. </p>
+            <p>Building a static HTML, CSS and JavaScript site, with no frameworks. </p>
         </article>
         <article>
             <div>
@@ -30,9 +31,8 @@ export default function Services () {
             </div>
             <h2>React w/ NextJS</h2>
             <p>
-                With React I can make a single page app with client side routing or
-                a server side rendering app thats better for SEO and reduce the client side
-                load.
+                I can build you a frontend UI with either React (for webapps/sites up to 7 page or less) or 
+                with NextJS (for bigger webapps with more pages).
             </p>
         </article>
         <article>
@@ -41,8 +41,8 @@ export default function Services () {
             </div>
             <h2>NodeJS w/Express</h2>
             <p>
-                With NodeJS and Express I can make server for handel serving pages and 
-                custom APIs.
+                With NodeJS I can build a backend server (with API) for your webapp/website and 
+                hook it up to a MongoDB database.
             </p>
         </article>
         <article>
@@ -50,7 +50,14 @@ export default function Services () {
                 <img src={db} />
             </div>
             <h2>MongoDB</h2>
-            <p>I can manage a mongo database and integrate it in to a node app/server. </p>
+            <p>I know how to manage a MongoDB database and use MongoDB Atlas. </p>
+        </article>
+        <article>
+            <div>
+                <img src={bel} />
+            </div>
+            <h2>Browser Extention</h2>
+            <p>I know how to make a custom browser extention for chrome, firefox ...</p>
         </article>
     </div>
     )

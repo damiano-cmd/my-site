@@ -8,10 +8,10 @@ export default function Footer (){
                 <h3>Contacts</h3>
                 <p>
                     Email: <br/>
-                    contacts
+                    damiandeni.biz@gmail.com
                 </p>
             </div>
-            <p>Copyright © Davids brand 2020</p>
+            <p>Copyright © Damians Deni 2020</p>
         </footer>
     )
 }

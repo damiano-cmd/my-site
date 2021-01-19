@@ -2,8 +2,8 @@ import React from 'react';
 import '../styles/portfolio.css';
 import Console from '../images/Console.png';
 import QtBS from '../images/QtBS4.png';
-import animeJS from '../images/animeJS.png';
 import trace from '../images/Trace.png';
+import sbbe from '../images/SBBE.png'
 
 export default function Portfolio () {
     return(
@@ -21,14 +21,19 @@ export default function Portfolio () {
                     <p>This is a GUI for BeautifulSoup4 build with PyQt5, it scrapes the web and return the results.</p>
                 </article>
                 <article>
-                    <img src={animeJS} />
-                    <h3>AnimeJS animations</h3>
-                    <p>This site contains animeJS animations I made.</p>
-                </article>
-                <article>
                     <img src={trace} />
                     <h3>Trace</h3>
-                    <p>A platform that is shortens urls and tracks IPs.</p>
+                    <p>A platform that is shortens urls and tracks IPs. <br/>
+                        <a href="https://traceer.herokuapp.com/">Link</a>
+                    </p>
+                </article>
+                <article>
+                    <img src={sbbe} />
+                    <h3>Shadow Browser</h3>
+                    <p>
+                        Browser extention that decrypts any know encrypeted text on a page and looks for encryption keys. <br/>
+                        <a href="https://github.com/damiano-cmd/ShadowBrowser">Gitrepo</a>
+                    </p>
                 </article>
             </div>
         </div>
